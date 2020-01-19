@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -133,6 +133,27 @@
     max-width: 30rem;
     font-size: 1.25rem;
   }
+}
+
+iframe[src*=vimeo] {
+  width: 100%;
+  max-height: 300px;
+  height: 100%;
+}
+
+.centered-div {
+  width: 660px;
+  /* you have to have a size or this method doesn't work */
+  height: 400px;
+  /* think about making these max-width instead - might give you some more responsiveness */
+  /* positions out of the flow, but according to the nearest parent */
+  top: 75;
+  right: 0;
+  /* confuse it i guess */
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  /* make em equal */
 }
 
 .btn {
