@@ -316,3 +316,8 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+#myVideo {
+  width: 60%;
+  padding-top: 80px;
+}
