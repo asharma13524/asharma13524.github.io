@@ -17,10 +17,13 @@ function vidAction(event) {
             break;
         case "btnPause":
             myVideo.pause();
+            myVideo2.pause();
             break;
         case "btnStop":
             myVideo.pause();
+            myVideo2.pause();
             myVideo.currentTime = 0;
+            myVideo2.currentTime = 0;
             break;
     }
 }

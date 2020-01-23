@@ -25,7 +25,7 @@
 
 </head>
 
-<body id="page-top">
+<body style="background:#CAECED">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -48,58 +48,32 @@
 
   <!-- Header -->
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 col-sm-6 col-xs-12 gallery" style="padding-top: 1em">
         <video id="myVideo">
           <source src="videos/chess21.mp4" />
         </video>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 col-sm-6 col-xs-12 gallery" style="padding-top: 1em">
-        <video id="myVideo">
+        <video id="myVideo2">
           <source src="videos/chessthirdpersonperspect.mp4" />
         </video>
-      </div>
+  </div>
+
+  <output id="timeOutput">Time:0</output>
+  <output id="timeOutput">Time:0</output>
+
+<div class="container">
+  <div class="row justify-content-center pt-5">
+    <div id="playbuttons">
+      <button class="btn btn-primary" id="btnPlay">Play</button>
+      <button class="btn btn-primary" id="btnPause">Pause</button>
+      <button class="btn btn-primary" id="btnStop">Stop</button>
     </div>
   </div>
-
-  <output id="timeOutput">Time:0</output>
-  <output id="timeOutput">Time:0</output>
-  <div id="playbuttons">
-    <button id="btnPlay">Play</button>
-    <button id="btnPause">Pause</button>
-    <button id="btnStop">Stop</button>
-  </div>
-  <script src="player.js"></script>
+</div>
 
 
-  <!-- <section id="gallery">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12 gallery" style="padding-top: 10em">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="videos/chess21.mp4" allowfullscreen ></iframe>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12 gallery" style="padding-top: 10em">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="videos/chessthirdpersonperspect.mp4" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
   <script src="player.js"></script>
 
 
-
-  </section>
-  <button>
-
-  </button>
 
   <!-- Footer -->
   <!-- <footer class="bg-black small text-center text-white-50">
