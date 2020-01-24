@@ -50,9 +50,14 @@
             text-align: center;
         }
 
-        h3 {
+        #first {
             padding-top: 4rem;
             margin-left: 8rem;
+        }
+
+        #second {
+            margin-left: 14rem;
+            padding-top: 4rem;
         }
 
         h5 {
@@ -64,8 +69,8 @@
 
     <div class="container-fluid">
         <div class='row'>
-            <h3>HeadCam First-Person Perspective</h3>
-            <h3>Third-Person Perspective</h3>
+            <h3 id="first">HeadCam First-Person Perspective</h3>
+            <h3 id="second">Third-Person Perspective</h3>
         </div>
         <video controls preload="auto" id="myVideo">
             <source src="https://hc-demovids.s3.us-east-2.amazonaws.com/chess21.mp4" />
