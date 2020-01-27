@@ -23,7 +23,7 @@
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
 
-</head>
+</head> -->
 
 <body>
 
@@ -59,16 +59,13 @@
             padding-left: 18rem;
             padding-top: 4rem;
         }
-
-        #myVideo{
-            height: 500px;
+        #myVideo {
+            height:500px;
         }
 
         h5 {
             text-align: center;
         }
-
-
     </style>
 
     <!-- Header -->
@@ -77,8 +74,8 @@
         <div class='row'>
             <h3 id="first">HeadCam First-Person Perspective</h3>
         </div>
-        <video id="myVideo" autoplay loop controls muted>
-            <source src="https://hc-demovids.s3.us-east-2.amazonaws.com/pooldemo.mp4" type="video/mp4" />
+        <video controls preload="auto" id="myVideo">
+            <source src="https://hc-demovids.s3.us-east-2.amazonaws.com/pooldemo.mp4" />
         </video>
     </div>
 
