@@ -52,7 +52,6 @@
 
         #first {
             padding-top: 4rem;
-            padding-left: 8rem;
         }
 
         #second {
@@ -60,32 +59,33 @@
             padding-top: 4rem;
         }
         #myVideo {
-            height:500px;
+            height:600px;
             width: 700px;
-            margin-left: 180px;
+            /* margin-left: 180px; */
+            margin-bottom: 50px;
         }
 
         h5 {
             text-align: center;
         }
+
     </style>
 
     <!-- Header -->
+<section>
+        <div class="container">
+            <div class='row justify-content-center'>
+                <h3 id="first">Demo for American Pool Association</h3>
+                <video controls preload="auto" id="myVideo">
+                    <source src="https://hc-demovids.s3.us-east-2.amazonaws.com/pooldemo.mp4" />
+                </video>
+            </div>
 
-    <div class="container">
-        <div class='row justify-content-center'>
-            <h3 id="first">HeadCam First-Person Perspective</h3>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12 gallery" style="padding-top: 1em">
-            <video controls preload="auto" id="myVideo">
-                <source src="https://hc-demovids.s3.us-east-2.amazonaws.com/pooldemo.mp4" />
-            </video>
+            <script src="player.js"></script>
         </div>
-            <h2>Demo for American Pool Association</h2>
-    </div>
+</section>
 
-    <script src="player.js"></script>
-    </div>
 
 
     <!-- Footer -->
